@@ -12,7 +12,7 @@ In addition to letters, digits and some punctuation, there are some special serv
 Your task is to implement a function that would take the morse code as input and return a decoded human-readable string.
 */
 import (
-	"fmt"
+	// "fmt"
 	"strings"
 )
 
@@ -21,13 +21,13 @@ func DecodeMorse(morseCode string) []string {
 	return str
 }
 
-func main() {
-	str := DecodeMorse("I am   a blood   a baby from my")
-	for _, words := range str {
-		word := strings.Split(words, " ")
-		for _, w := range word {
-			fmt.Printf("%s\n", w)
-		}
-		fmt.Printf("***\n")
-	}
-}
+// func main() {
+// 	str := DecodeMorse("I am   a blood   a baby from my")
+// 	for _, words := range str {
+// 		word := strings.Split(words, " ")
+// 		for _, w := range word {
+// 			fmt.Printf("%s\n", w)
+// 		}
+// 		fmt.Printf("***\n")
+// 	}
+// }

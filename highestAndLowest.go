@@ -22,6 +22,6 @@ func HighAndLow(in string) string {
 	return fmt.Sprintf("%v, %v", highest, lowest)
 }
 
-func main() {
-	fmt.Printf("%v", HighAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
-}
+// func main() {
+// 	fmt.Printf("%v", HighAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4"))
+// }
